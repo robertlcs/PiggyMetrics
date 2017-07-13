@@ -1,5 +1,5 @@
 FROM java:8-jre
-MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
+MAINTAINER Webull Limited
 
 ADD ./target/registry.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/registry.jar"]
