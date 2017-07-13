@@ -7,14 +7,13 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.2.RELEASE</version>
         <relativePath/>
-        <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.piggymetrics</groupId>
-    <artifactId>piggymetrics</artifactId>
+    <groupId>com.webull</groupId>
+    <artifactId>start-webull</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>piggymetrics</name>
+    <name>start-webull</name>
 
     <modules>
         <module>config</module>
@@ -27,6 +26,11 @@
         <module>notification-service</module>
     </modules>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -38,5 +42,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 </project>
